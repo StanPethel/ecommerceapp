@@ -78,7 +78,7 @@ const Navbar = () => {
                       <Search style ={{color: "gray", fontSize:16}}/>
                   </SearchContainer>
                  </Left> 
-                <Center><Logo> Stan </Logo> </Center> 
+                <Center><Logo> MERN APP </Logo> </Center> 
                 <Right> 
 
                   <MenuItem> Register </MenuItem> 
