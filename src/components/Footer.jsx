@@ -87,7 +87,7 @@ import {
     return (
       <Container>
         <Left>
-          <Logo>STAN.</Logo>
+          <Logo>MERN CAPSTONE.</Logo>
           <Desc>
             There are many variations of passages of Lorem Ipsum available, but
             the majority have suffered alteration in some form, by injected
@@ -109,7 +109,7 @@ import {
           </SocialContainer>
         </Left>
         <Center>
-          <Title>Useful Links</Title>
+          <Title>Helpful Links</Title>
           <List>
             <ListItem>Home</ListItem>
             <ListItem>Cart</ListItem>
