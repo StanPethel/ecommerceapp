@@ -177,7 +177,7 @@ const Cart = () => {
                     <b>Product:</b> JESSIE THUNDER SHOES
                   </ProductName>
                   <ProductId>
-                    <b>ID:</b> 93813718293
+                    <b>ID:</b> 8675309
                   </ProductId>
                   <ProductColor color="black" />
                   <ProductSize>
@@ -203,7 +203,7 @@ const Cart = () => {
                     <b>Product:</b> HAKURA T-SHIRT
                   </ProductName>
                   <ProductId>
-                    <b>ID:</b> 93813718293
+                    <b>ID:</b> 8675309
                   </ProductId>
                   <ProductColor color="gray" />
                   <ProductSize>
