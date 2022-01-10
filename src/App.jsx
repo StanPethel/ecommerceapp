@@ -12,31 +12,21 @@ import {
 } from "react-router-dom";
 import Success from "./pages/Success";
 import { useSelector } from "react-redux";
+import Products from "./components/Products";
 
 const App = () => {
   const user = useSelector((state) => state.user.currentUser);
   return (
     <Router>
       <Routes>
-        <Route exact path="/">
-          <Home />
-        </Route>
-        <Route path="/products/:category">
-          <ProductList />
-        </Route>
-        <Route path="/product/:id">
-          <Product />
-        </Route>
-        <Route path="/cart">
-          <Cart />
-        </Route>
-        <Route path="/success">
-          <Success />
-        </Route>
-        <Route path="/login">{user ? <Navigate to="/" /> : <Login />}</Route>
-        <Route path="/register">
-          {user ? <Navigate to="/" /> : <Register />}
-        </Route>
+        <Route path="/" element={<Home/>}/>
+        <Route path="/products/:category" element= {<ProductList/>}/>
+        <Route path="/products/" element= {<Products/>}/>
+        <Route path="/product/:id" element= {<Product/>}/>
+        <Route path="/cart" element={<Cart/>}/>
+        <Route path="/success" element={<Success/>}/>
+        <Route path="/login" element={<Login />}/>
+        <Route path="/register" element={<Register/>}/>
       </Routes>
     </Router>
   );

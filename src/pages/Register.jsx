@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import { mobile } from "../responsive";
 
+
 const Container = styled.div`
   width: 100vw;
   height: 100vh;
